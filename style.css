@@ -47,33 +47,37 @@ header {
 }
 
 #portrait {
-    margin: 0;
+    margin: 80px auto 100px auto;
     background: url("portrait.jpg") no-repeat;
     background-position: center;
-    background-size: contain;
-    font-size: 350px;
-    color: hsl(299, 60%, 18%, 75%);
+    display: block;
+    background-size: cover;
+    font-size: 1000%;
+    color: rgb(43, 38, 199);
     display: block;
     text-align: left;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Megrim', cursive;
+    background-color:hsla(283, 47%, 3%, 0.73);
+    height: 600px;
+    width: 700px;
+    text-shadow: 4px 4px rgba(237, 66, 104, 0.879);
+
 }
 #portrait:hover {
-    margin: 0;
+    margin: 80px auto 100px auto;
     background: url("portrait(moving).jpg") no-repeat;
     background-position: center;
-    background-size: contain;
-    color: hsla(283, 47%, 3%, 0.73);
-    font-size: 350px;
+    background-size: cover;
+    color: rgba(189, 41, 73, 0.935);
+    font-size: 1000%;
     display: block;
     text-align: left;
+    background-color:hsla(283, 47%, 3%, 0.73);
+    height: 600px;
+    width: 700px;
+    text-shadow: 4px 4px rgba(33, 59, 153, 0.772);
 }
 
-.hover-img:hover{
-    background-image: url("portrait(moving).jpg") no-repeat;
-}
-body img:hover{
-    opacity:0.5;
-}
 p {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -83,16 +87,19 @@ p {
     line-height: 1.4;
     background-color: whitesmoke;
     text-align: justify;
-    margin: 40px 100px;
+    margin: 60px 100px;
     letter-spacing: .2rem ;
+
 }
+
+
 
 footer {
     background-image: url("sunset.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 10rem;
+    height: 10em;
     filter: grayscale(70%);
 }
 footer:hover {
@@ -100,6 +107,7 @@ footer:hover {
 }
 #contact {
     background-color: hsl(269, 36%, 99%, 0.38);
-    font-size: 30px;
+    font-size: 70%;
     position: relative;
+    padding: 10px;
 }
