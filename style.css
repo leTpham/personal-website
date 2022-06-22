@@ -1,0 +1,87 @@
+html {
+    font-size: 40px;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: rgba(250, 250, 250, 0.95);
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 5px 200px;
+    color: white;
+}
+
+#fullName {
+    font-size: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:hsl(269, 36%, 7%, 0.79);
+    margin: 0;
+}
+img {
+    margin-top: 300px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#portrait {
+    margin: 50px 50px;
+    background: url("portrait.jpg") no-repeat;
+    background-position: center;
+    background-size:contain;
+    font-size: 400px;
+    color: hsl(299, 60%, 18%, 75%);
+    display: block;
+}
+#portrait:hover {
+    margin: 50px 50px;
+    background: url("portrait(moving).jpg") no-repeat;
+    background-position: center;
+    background-size:contain;
+    color: hsla(0, 0%, 0%, 0);
+    font-size: 400px;
+    display: block;
+}
+
+.hover-img:hover{
+    background-image: url("portrait(moving).jpg") no-repeat;
+}
+body img:hover{
+    opacity:0.5;
+}
+p {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: salmon;
+    font-weight: lighter;
+    word-spacing: 0.25em;
+    line-height: 1.4;
+    background-color: whitesmoke;
+    text-align: justify;
+    margin: 40px 100px;
+}
+
+footer {
+    background-image: url("sunset.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10rem;
+}
+#contact {
+    background-color: hsl(269, 36%, 99%, 0.38);
+    font-size: 60px;
+    position: relative;
+}
