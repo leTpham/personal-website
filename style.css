@@ -53,7 +53,7 @@ header {
     background-position: center;
     display: block;
     background-size: cover;
-    font-size: 900%;
+    font-size: 800%;
     color: rgb(41, 0, 128);
     text-align:left;
     display: block;
@@ -74,7 +74,7 @@ header {
     background-position: center;
     background-size: cover;
     color: transparent;
-    font-size: 900%;
+    font-size: 850%;
     display: block;
     text-align: left;
     background-color:hsla(283, 47%, 3%, 0.73);
